@@ -2,8 +2,10 @@ package reflection;
 
 public class Reflection {
 	private int num;
-
-	Reflection(int num) {
+	public Reflection() {
+		
+	}
+	public Reflection(int num) {
 		this.num = num;
 	}
 	public int getNum() {
